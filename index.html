@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e651a68cb43fe7d951e8af3673e35a9d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e651a68cb43fe7d951e8af3673e35a9d" ></div>
+        
+</body>
+<script>    
+    
+            var map_e651a68cb43fe7d951e8af3673e35a9d = L.map(
+                "map_e651a68cb43fe7d951e8af3673e35a9d",
+                {
+                    center: [38.307, 25.51],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dc56df90793dee5f5565f0d3af6f4fad = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+            var circle_marker_71dba2252892ed65adaafc955e168c19 = L.circleMarker(
+                [37.89912932708333, 22.96141574583333],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_78e8867c6a19f6dda103d3c4d3af2bd3 = L.popup({"maxWidth": 1000});
+
+        
+            var html_7b69509f0b142ed92816ab995717a9eb = $(`<div id="html_7b69509f0b142ed92816ab995717a9eb" style="width: 100.0%; height: 100.0%;">Κοινότητα Ξυλοκερίζης,  Δημοτική Ενότητα Κορινθίων</div>`)[0];
+            popup_78e8867c6a19f6dda103d3c4d3af2bd3.setContent(html_7b69509f0b142ed92816ab995717a9eb);
+        
+
+        circle_marker_71dba2252892ed65adaafc955e168c19.bindPopup(popup_78e8867c6a19f6dda103d3c4d3af2bd3)
+        ;
+
+        
+    
+    
+            var circle_marker_daea4cd9dd3be9e2fe115d7e199a248b = L.circleMarker(
+                [37.99258389137931, 23.7561917],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_bddb11ee2e7b3e2da8fefef38cf6136a = L.popup({"maxWidth": 720});
+
+        
+            var html_8c00ac4790d348f63be43a22cdd8989d = $(`<div id="html_8c00ac4790d348f63be43a22cdd8989d" style="width: 100.0%; height: 100.0%;">7η Κοινότητα Αθηνών,  Δήμος Αθηναίων</div>`)[0];
+            popup_bddb11ee2e7b3e2da8fefef38cf6136a.setContent(html_8c00ac4790d348f63be43a22cdd8989d);
+        
+
+        circle_marker_daea4cd9dd3be9e2fe115d7e199a248b.bindPopup(popup_bddb11ee2e7b3e2da8fefef38cf6136a)
+        ;
+
+        
+    
+    
+            var circle_marker_f359e7d09f5999fd3b52e76098fe0c0b = L.circleMarker(
+                [37.93730444, 22.83875636],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_3b5384df6ae74b760bbc2167c7eaba7e = L.popup({"maxWidth": 1120});
+
+        
+            var html_e96817ea4d8a7a7576a4ce6b2c8524b0 = $(`<div id="html_e96817ea4d8a7a7576a4ce6b2c8524b0" style="width: 100.0%; height: 100.0%;">Κοινότητα Περιγιαλίου,  Δημοτική Ενότητα Άσσου - Λεχαίου</div>`)[0];
+            popup_3b5384df6ae74b760bbc2167c7eaba7e.setContent(html_e96817ea4d8a7a7576a4ce6b2c8524b0);
+        
+
+        circle_marker_f359e7d09f5999fd3b52e76098fe0c0b.bindPopup(popup_3b5384df6ae74b760bbc2167c7eaba7e)
+        ;
+
+        
+    
+    
+            var circle_marker_b4619ebb06122267362ae0e0fcdc7338 = L.circleMarker(
+                [37.92570381176471, 23.698652629411765],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_baae2c09ccc0d0865c7a6c3757e8167a = L.popup({"maxWidth": 1280});
+
+        
+            var html_e8696a7f8a48e109d5b26d4f9d318fa3 = $(`<div id="html_e8696a7f8a48e109d5b26d4f9d318fa3" style="width: 100.0%; height: 100.0%;">Δήμος Παλαιού Φαλήρου,  Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών</div>`)[0];
+            popup_baae2c09ccc0d0865c7a6c3757e8167a.setContent(html_e8696a7f8a48e109d5b26d4f9d318fa3);
+        
+
+        circle_marker_b4619ebb06122267362ae0e0fcdc7338.bindPopup(popup_baae2c09ccc0d0865c7a6c3757e8167a)
+        ;
+
+        
+    
+    
+            var circle_marker_7564974cb83d1ad0e36dbb3dc4c54598 = L.circleMarker(
+                [39.36640442, 22.94115564],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_bbfb98c63ec7e31f71947e384c48cdfb = L.popup({"maxWidth": 420});
+
+        
+            var html_a41b62d5c438590b0e8a1545b2ce588d = $(`<div id="html_a41b62d5c438590b0e8a1545b2ce588d" style="width: 100.0%; height: 100.0%;">Οξυγόνο,  Δήμος Βόλου</div>`)[0];
+            popup_bbfb98c63ec7e31f71947e384c48cdfb.setContent(html_a41b62d5c438590b0e8a1545b2ce588d);
+        
+
+        circle_marker_7564974cb83d1ad0e36dbb3dc4c54598.bindPopup(popup_bbfb98c63ec7e31f71947e384c48cdfb)
+        ;
+
+        
+    
+    
+            var circle_marker_55dd16909305043721b1bf48a63333c9 = L.circleMarker(
+                [38.00681656, 22.966564428],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_e46bf842452b4b8e046917fbce9e7219 = L.popup({"maxWidth": 1480});
+
+        
+            var html_7a97bbb9e1097c069aa9983c1389afd8 = $(`<div id="html_7a97bbb9e1097c069aa9983c1389afd8" style="width: 100.0%; height: 100.0%;">Κοινότητα Λουτρακίου - Περαχώρας,  Δημοτική Ενότητα Λουτρακίου - Περαχώρας</div>`)[0];
+            popup_e46bf842452b4b8e046917fbce9e7219.setContent(html_7a97bbb9e1097c069aa9983c1389afd8);
+        
+
+        circle_marker_55dd16909305043721b1bf48a63333c9.bindPopup(popup_e46bf842452b4b8e046917fbce9e7219)
+        ;
+
+        
+    
+    
+            var circle_marker_2990b592ec743b3f17260d9e8fe541c8 = L.circleMarker(
+                [38.00681656, 22.966564428],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_43e5027c95156b0d6ac19e80493827d9 = L.popup({"maxWidth": 1480});
+
+        
+            var html_69b98938fa20d6e5376b096aa882c970 = $(`<div id="html_69b98938fa20d6e5376b096aa882c970" style="width: 100.0%; height: 100.0%;">Κοινότητα Λουτρακίου - Περαχώρας,  Δημοτική Ενότητα Λουτρακίου - Περαχώρας</div>`)[0];
+            popup_43e5027c95156b0d6ac19e80493827d9.setContent(html_69b98938fa20d6e5376b096aa882c970);
+        
+
+        circle_marker_2990b592ec743b3f17260d9e8fe541c8.bindPopup(popup_43e5027c95156b0d6ac19e80493827d9)
+        ;
+
+        
+    
+    
+            var circle_marker_d5651670792bdb6eb0ef89bb99aa6493 = L.circleMarker(
+                [38.02237287631579, 23.73312617631579],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_49377bc292a0dbdd923027e8fa41fe0a = L.popup({"maxWidth": 720});
+
+        
+            var html_bd8660cf0aba9dbbfe5b7f0c8c2be079 = $(`<div id="html_bd8660cf0aba9dbbfe5b7f0c8c2be079" style="width: 100.0%; height: 100.0%;">5η Κοινότητα Αθηνών,  Δήμος Αθηναίων</div>`)[0];
+            popup_49377bc292a0dbdd923027e8fa41fe0a.setContent(html_bd8660cf0aba9dbbfe5b7f0c8c2be079);
+        
+
+        circle_marker_d5651670792bdb6eb0ef89bb99aa6493.bindPopup(popup_49377bc292a0dbdd923027e8fa41fe0a)
+        ;
+
+        
+    
+    
+            var circle_marker_53d105da6187584dada269a2d523d793 = L.circleMarker(
+                [38.01840011931818, 23.73833692272727],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_145cb91eb44b064c9a255be6a15dce05 = L.popup({"maxWidth": 720});
+
+        
+            var html_ee641d24806c0f108a47bb48f756ea74 = $(`<div id="html_ee641d24806c0f108a47bb48f756ea74" style="width: 100.0%; height: 100.0%;">5η Κοινότητα Αθηνών,  Δήμος Αθηναίων</div>`)[0];
+            popup_145cb91eb44b064c9a255be6a15dce05.setContent(html_ee641d24806c0f108a47bb48f756ea74);
+        
+
+        circle_marker_53d105da6187584dada269a2d523d793.bindPopup(popup_145cb91eb44b064c9a255be6a15dce05)
+        ;
+
+        
+    
+    
+            var circle_marker_a08ba8cb9c39ba9bf8317bcf08720a7d = L.circleMarker(
+                [38.02648147305389, 23.74731378982036],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_c4bb873df178e053d06e2b263dfd9dda = L.popup({"maxWidth": 840});
+
+        
+            var html_b2ee61f934718ea085903b2b0f0fe5f8 = $(`<div id="html_b2ee61f934718ea085903b2b0f0fe5f8" style="width: 100.0%; height: 100.0%;">Συνοικία Ριζουπόλεως,  5η Κοινότητα Αθηνών</div>`)[0];
+            popup_c4bb873df178e053d06e2b263dfd9dda.setContent(html_b2ee61f934718ea085903b2b0f0fe5f8);
+        
+
+        circle_marker_a08ba8cb9c39ba9bf8317bcf08720a7d.bindPopup(popup_c4bb873df178e053d06e2b263dfd9dda)
+        ;
+
+        
+    
+    
+            var circle_marker_e86c1207fcb587a9aeb04f938436f02e = L.circleMarker(
+                [38.01731718346457, 23.73247914645669],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_15b564ffa73f7ee7911999c3f0d9884b = L.popup({"maxWidth": 720});
+
+        
+            var html_d95ac78992af3143bc2cc1ffa70d9857 = $(`<div id="html_d95ac78992af3143bc2cc1ffa70d9857" style="width: 100.0%; height: 100.0%;">5η Κοινότητα Αθηνών,  Δήμος Αθηναίων</div>`)[0];
+            popup_15b564ffa73f7ee7911999c3f0d9884b.setContent(html_d95ac78992af3143bc2cc1ffa70d9857);
+        
+
+        circle_marker_e86c1207fcb587a9aeb04f938436f02e.bindPopup(popup_15b564ffa73f7ee7911999c3f0d9884b)
+        ;
+
+        
+    
+    
+            var circle_marker_76eff67e81aa4f8fcff1397043bc1f4b = L.circleMarker(
+                [38.01627972857143, 23.7291137],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_0fefc32a2b2796a06209b267f1246817 = L.popup({"maxWidth": 720});
+
+        
+            var html_2a21e7e7e8c18e8a70fb76fe4f5359c5 = $(`<div id="html_2a21e7e7e8c18e8a70fb76fe4f5359c5" style="width: 100.0%; height: 100.0%;">5η Κοινότητα Αθηνών,  Δήμος Αθηναίων</div>`)[0];
+            popup_0fefc32a2b2796a06209b267f1246817.setContent(html_2a21e7e7e8c18e8a70fb76fe4f5359c5);
+        
+
+        circle_marker_76eff67e81aa4f8fcff1397043bc1f4b.bindPopup(popup_0fefc32a2b2796a06209b267f1246817)
+        ;
+
+        
+    
+    
+            var circle_marker_82583f415adcc0df90918f898252d178 = L.circleMarker(
+                [38.01500996034483, 23.74955173448276],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_3fe34b2e3417a05e0c600e2ce9c215ac = L.popup({"maxWidth": 1220});
+
+        
+            var html_d06334f82903f1552d7abb4e1563aa89 = $(`<div id="html_d06334f82903f1552d7abb4e1563aa89" style="width: 100.0%; height: 100.0%;">Δήμος Γαλατσίου,  Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών</div>`)[0];
+            popup_3fe34b2e3417a05e0c600e2ce9c215ac.setContent(html_d06334f82903f1552d7abb4e1563aa89);
+        
+
+        circle_marker_82583f415adcc0df90918f898252d178.bindPopup(popup_3fe34b2e3417a05e0c600e2ce9c215ac)
+        ;
+
+        
+    
+    
+            var circle_marker_c24b557a47973caf07f143500e2195d4 = L.circleMarker(
+                [38.01716206025641, 23.758321043589746],
+                {"bubblingMouseEvents": true, "color": "#ef4023", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ef4023", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1, "stroke": true, "weight": 5}
+            ).addTo(map_e651a68cb43fe7d951e8af3673e35a9d);
+        
+    
+        var popup_9fae72b0b2a3d494791e933d3546d3f1 = L.popup({"maxWidth": 1220});
+
+        
+            var html_090ee8b9591ce0e31fe25b1c265235ec = $(`<div id="html_090ee8b9591ce0e31fe25b1c265235ec" style="width: 100.0%; height: 100.0%;">Δήμος Γαλατσίου,  Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών</div>`)[0];
+            popup_9fae72b0b2a3d494791e933d3546d3f1.setContent(html_090ee8b9591ce0e31fe25b1c265235ec);
+        
+
+        circle_marker_c24b557a47973caf07f143500e2195d4.bindPopup(popup_9fae72b0b2a3d494791e933d3546d3f1)
+        ;
+
+        
+    
+</script>
